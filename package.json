@@ -1,0 +1,22 @@
+{
+  "name": "kianite_token",
+  "version": "1.0.0",
+  "description": "Kianite governance token",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Kianite Limited",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "ganache": "^6.4.4",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.3.2",
+    "web3": "^1.3.4"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
